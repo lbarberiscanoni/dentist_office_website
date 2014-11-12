@@ -1,0 +1,427 @@
+body {
+	background-color: #6191C3;
+	position: relative;
+}
+
+nav li {
+	float: left;
+	background-color: #235B96;
+	margin: 21px;
+	padding: 10px;
+	border-radius: 10px;
+	width: 150px;
+	text-align: center;
+}
+
+nav a {
+	font-size: 25px;
+	color: #dceaf9;
+	text-decoration: none;
+}
+
+nav {
+	position: fixed;
+	clear: right;
+}
+
+nav a:hover {
+	color: black;
+}
+
+.logo {
+  	width: 310px;
+  	height: 310px;
+  	background-color: grey;
+  	float: left;
+  	margin-left: 20px;
+}
+
+.baby {
+  	width: 900px;
+  	height: 310px;
+  	background-color: #546164;
+  	float: left;
+}
+
+.top_pics {
+	margin-top: 70px;
+}
+
+.team, .main {
+	float: left;
+}
+
+.main {
+	width: 1000px;
+/*	border: 1px solid black;*/
+}
+
+.main_contact {
+	border: 1px solid black;
+}
+
+.main_blog {
+	width: 760px;
+	float: left;
+	margin-bottom: 100px;
+}
+
+.team {
+	width: 250px;
+}
+
+.side_pic {
+	width: 220px;
+  	height: 220px;
+	margin: 200px 12px 20px 20px;
+}
+
+.meet {
+	font-size: 22px;
+	margin: 20px 60px;
+	text-decoration: none;
+	color: black;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.meet:hover {
+	color: white;
+	border: solid white;
+}
+
+.text {
+	width: 215px;
+  	height: 260px;
+	padding: 10px;
+	font-size: 20px;
+	line-height: 30px;
+	margin: 20px 20px;
+	color: white;
+}
+
+span {
+	font-size: 28px;
+}
+
+.main_blog h1, .main_contact h1, h1 {
+	font-family: 'EucrosiaUPC', serif;
+	font-size: 90px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	margin: 50px 0 20px 0;
+}
+
+.main_blog h2, .main_contact h2, h2 {
+	font-family: 'EucrosiaUPC', serif;
+	font-size: 65px;
+	font-style: italic;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.description, .office_description, .person_description {
+	width: 800px;
+	padding: 25px 20px 20px 20px;
+	margin: 0 auto;	
+	font-family: 'EucrosiaUPC', serif;
+	font-size: 26px;
+	line-height: 40px;
+}
+
+.people {
+	margin-left: 170px;
+}
+
+.person_a, .person_b, .person_c, .person_d {
+	float: left;
+	margin: 50px 50px;
+}
+
+.pic {
+	width: 220px;
+  	height: 220px;
+	background: grey;
+	margin: 20px 0 100px 0;
+}
+
+.pic a {
+	margin: 0 auto;
+}
+
+.description_outline {
+	display: none;
+	position: absolute;
+    z-index: 1002;
+    width: 840px;
+    height: 455px;
+    background-color: grey;
+	opacity: .5;
+    overflow: auto;
+    top: 800px;
+    right: 100px;
+}
+
+.person_description {
+	width: 800px;
+	padding: 25px 20px 20px 20px;
+	font-family: 'EucrosiaUPC', serif;
+	font-size: 26px;
+	line-height: 40px;
+}
+
+.forms a {
+	width: 200px;
+	margin-left: 100px;
+	font-size: 40px;
+	padding: 10px;
+	float: left;
+	text-decoration: none;
+}
+
+.answer, .question:hover>div {
+	display: none;
+}
+
+.question:hover>.answer {
+  	display:block;
+}
+
+.question {
+	margin: 40px auto;
+	font-family: 'EucrosiaUPC', serif;
+	font-size: 38px;
+	font-style: italic;
+	width: 500px;
+}
+
+.answer {
+	width: 600px;
+	border: 1px solid black;
+	padding: 20px;
+	font-family: 'EucrosiaUPC', serif;
+	font-size: 22px;
+	line-height: 40px;
+}
+
+.gallery_head {
+	margin: 150px 300px 200px 300px;
+	border: 2px solid;
+	padding: 5px;
+	text-align: center;
+}
+
+.gallery_head a {
+	text-decoration: none;
+	font-size: 38px;
+	color: black;
+}
+
+.gallery_head a:hover {
+	color: white;
+}
+
+.gallery_pic_outline {
+    display: none;
+    position: absolute;
+    z-index:1002;
+    width: 600px;
+    height: 455px;
+    background: grey;
+	opacity: .5;
+    overflow: auto;
+    top: 700px;
+    margin-left: 140px;
+    margin-top: 110px;
+}
+
+.black_overlay{
+    display: none;
+    position: absolute;
+    background-color: black;
+    z-index:1001;
+    top: 0%;
+    left: 0%;
+    width: 1280px;
+    height: 1510px;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 50;
+	font-size: 26px;
+	border: 2px solid black;
+}
+
+.seeall {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 50;
+	font-size: 26px;
+	border: 2px solid black;
+}
+
+
+
+.post {
+	border-radius: 10px;
+	border: 2px solid black;
+	width: 550px;
+	margin: 0 auto;
+}
+
+.words {
+	padding: 20px;
+	font-family: 'EucrosiaUPC', serif;
+	font-size: 26px;
+	line-height: 40px;
+}
+
+.icons  {
+	display: none;
+	width: 250px;
+	min-height: 120px;
+	margin: 20px 0 0 165px;
+	border: 2px dotted black;
+}
+
+button {
+	background-color: transparent;
+	border-radius: 10px;	
+	font-size: 30px;
+	margin-left: 200px;
+}
+
+.social_icons_sharing button {
+	margin: 50px 0 0 325px;
+}
+
+.icon {
+	float: left;
+	margin: 5px 20px;
+}
+
+#sharing {
+	display: none;
+	margin: 20px 0 100px 250px;
+	width: 250px;
+	height: 80px;
+	padding: 10px;
+	border: 2px dotted black;
+}
+
+.social_icons_sharing {
+	margin-bottom: 150px;
+
+}
+
+.patient_month {
+	float: right;
+	margin: 200px 20px 200px 0;
+}
+
+.patient_pic {
+	width: 200px;
+  	height: 200px;
+}
+
+.patient_name {
+	width: 200px;
+	height: 23px;
+	margin: 20px 0 40px 0;
+	padding: 3px 0 3px 0;
+	font-size: 27px;
+	font-style: italic;
+	text-align: center;
+}
+
+.patient_text {
+	width: 180px;
+	font-size: 23px;
+	padding: 10px;	
+	line-height: 28px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.questions_area {
+	margin: 20px 0 10px 100px;
+	width: 500px;
+	padding-top: 20px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+input {
+	margin: 20px 50px 20px 45px;
+	padding: 5px;
+	width: 400px;
+	font-size: 23px;
+}
+
+input:nth-of-type(4) {
+	: 300px;
+}
+
+.gmaps {
+	margin-left: 255px;
+}
+
+.review_area {
+	margin: 20px 0 0px 100px;
+	width: 500px;
+	padding-top: 20px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.name_reviews {
+	margin: 25px 0 0 180px;
+	width: 300px;
+	height: 30px;
+	background-color: #74868b;
+}
+
+.email_reviews {
+	margin: 25px 0 0 180px;
+	width: 300px;
+	height: 30px;
+	background-color: #74868b;
+}
+
+button {
+	margin: 2	0px 0 0 175px;
+	width: 120px;
+	height: 30px;
+	font-style: helvetica;
+	font-size: 20px;
+}
+
+.us, .questions_head, .questions_area, .review_head, .review_area, .directions_head{
+	margin: 50px 150px 50px 200px;
+}
+
+.questions_area, .review_area {
+	margin-left: 250px;
+}
+
+footer a {
+	bottom: 0;
+	float: left;
+	margin: 10px 100px 0 100px;
+}
+.signature {
+	bottom: 0;
+	float: left;
+	margin: 10px 0 0 50px;
+	font-size: 20px;
+}
+
+	
+
+
